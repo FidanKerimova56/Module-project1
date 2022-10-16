@@ -116,4 +116,90 @@
     width: 150px;
     font-size: 18px;
   }
+ /* !section-3 */
+.section-3 {
+    padding: 178px 344px 0 121px;
+  }
+  .section-3 > h2 {
+    height: 93px;
+    font-size: 55px;
+    margin-bottom: 89px;
+  }
+  .sec3-text-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .section-3 h3 {
+    height: 39px;
+    font-weight: 700;
+    font-size: 25px;
+  }
   
+  .section-3 .sec3-1 {
+    margin-bottom: 10px;
+    width: 223px;
+    font-size: 18px;
+  }
+  .section-3 .sec3-2 {
+    width: 271px;
+    font-size: 18px;
+  }
+  .section-3 .sec3-3 {
+    width: 245px;
+    font-size: 18px;
+  }
+  
+  /* !section-4 */
+  .section-4 {
+    padding: 214px 0 0 121px;
+  }
+  .section-4 > h2 {
+    width: 667px;
+    height: 93px;
+    font-size: 55px;
+  }
+  .section-4 ul {
+    width: 662px;
+  
+    font-size: 24px;
+  }
+/* !section-5 */
+  .section-5 {
+    padding: 427px 0px 121px 84px;
+  }
+  .section-5 > h2 {
+    width: 905px;
+    height: 93px;
+    font-size: 55px;
+    margin-bottom: 95px;
+    padding-left: 30px;
+  }
+  .sec5-main {
+    max-width: 100%;
+  }
+  .sec5-box {
+    width: 399px;
+    height: 328px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-right: 37px;
+    margin-bottom: 41px;
+  }
+  .sec5-box > img {
+    width: 399px;
+    height: 160px;
+  }
+  .sec5-text > h4 {
+    width: 365px;
+    font-size: 30px;
+    margin-top: 11px;
+    margin-bottom: 32px;
+  }
+  .sec5-text > .name-5,
+  .sec5-text > .date-5 {
+    width: 365px;
+    font-size: 25px;
+  }
+  .sec5-text {
+    padding-left: 20px;
+  }
