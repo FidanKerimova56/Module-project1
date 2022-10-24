@@ -29,9 +29,9 @@
 }
 
 /* !common css */
-.container {
-  width: 100%;
+.container{
   margin: 0 auto;
+  width: 350px;
 }
 
 /* ! section-1 */
@@ -265,13 +265,14 @@ h3 {
   font-size: 26px;
   line-height: 101.38%;
 }
-.sec5-main {
+/* .sec5-main {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-}
+} */
+
 .sec5-box {
   width: 185.92px;
   height: 152.84px;
@@ -279,6 +280,8 @@ h3 {
   box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
   border-radius: 13.9792px;
   margin-bottom: 24.16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sec5-box > .box-8 > h4 {
@@ -329,7 +332,8 @@ h3 {
 }
 .jivot {
   margin-top: 11px;
-  margin-left: 36px;
+  /* margin-left: 36px; */
+  margin: 11px auto;
   height: 248px;
   width: 308px;
   border-radius: 14px;
