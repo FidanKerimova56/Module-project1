@@ -1,3 +1,7 @@
+.container{
+  width: 1450px;
+  margin: 0 auto;
+}
 /*! section-1 */
 .section-1 {
     padding: 21px 246px 0 121px;
@@ -166,6 +170,7 @@
 /* !section-5 */
   .section-5 {
     padding: 427px 0px 121px 84px;
+    height: 2000px;
   }
   .section-5 > h2 {
     width: 905px;
@@ -174,9 +179,16 @@
     margin-bottom: 95px;
     padding-left: 30px;
   }
-  .sec5-main {
-    max-width: 100%;
-  }
+  .sec5-main
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
   .sec5-box {
     width: 399px;
     height: 328px;
@@ -184,6 +196,7 @@
     border-radius: 30px;
     margin-right: 37px;
     margin-bottom: 41px;
+    margin-left: 0;
   }
   .sec5-box > img {
     width: 399px;
